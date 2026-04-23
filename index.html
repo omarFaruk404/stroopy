@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroopy | Perfect for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="media/logo.png" alt="Stroopy Logo" class="logo-img">
+        </a>
+        <div class="hamburger" id="hamburger">☰</div>
+        <nav class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <section class="hero-carousel">
+        <div class="carousel-track" id="carousel-track">
+            
+            <div class="slide active">
+                <img src="media/chocolate.png" alt="Stroopy Package" class="slide-img left-img">
+                <div class="slide-content centered-content">
+                    <h1>Bite into Everyday Luxury</h1>
+                    <p>Discover Bangladesh's first authentic Dutch Stroopwafel. Tasty, unique, and perfectly crafted for your daily moments.</p>
+                    <h2 class="script-text">PERFECT FOR YOU</h2>
+                </div>
+                <img src="media/inside.png" alt="Inside the Stroopwafel" class="slide-img right-img">
+            </div>
+
+            <div class="slide">
+                <img src="media/inside2.png" alt="Caramel Package" class="slide-img left-img">
+                <div class="slide-content centered-content">
+                    <h1>Crisp + Chewy Perfection</h1>
+                    <p>Two golden baked waffles bound by a luscious, melt-in-your-mouth filling. 100% Natural, 100% Halal.</p>
+                    <h2 class="script-text" style="color: var(--brand-brown);">IRRESISTIBLY GOOD</h2>
+                </div>
+                <img src="media/inside3.png" alt="Caramel Filling" class="slide-img right-img">
+            </div>
+
+        </div>
+        
+        <div class="carousel-dots" id="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+        </div>
+    </section>
+
+    <section class="features-section fade-in">
+        <h2 class="section-title">Why Our Cookies Are Unique</h2>
+        <div class="features-grid">
+            <div class="feature-column" style="text-align: right;">
+                <div class="feature-item fade-in"><p>Premium Ingredients<br>at 30 BDT ↘</p></div>
+                <div class="feature-item fade-in"><p>Crisp + Chewy ↗</p></div>
+            </div>
+            <div class="feature-center fade-in">
+                <img src="media/main.png" alt="Plate of Stroopwafels" style="background-color: white;">
+            </div>
+            <div class="feature-column" style="text-align: left;">
+                <div class="feature-item fade-in"><p>↙ Tea, Coffee's<br>Favorite Sidekick</p></div>
+                <div class="feature-item fade-in"><p>↖ Signature Waffle<br>Structure</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#D4813B" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,170.7C672,149,768,139,864,154.7C960,171,1056,213,1152,224C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </div>
+
+    <section id="flavours-scroll-wrapper" class="horizontal-scroll-wrapper">
+        <div class="sticky-view">
+            <div id="flavours-track" class="flavours-track">
+                
+                <div class="flavour-panel active">
+                    <div class="panel-container">
+                        <div class="panel-content">
+                            <h2>Classic Caramel</h2>
+                            <p>The authentic Dutch original. Smooth, buttery caramel filling beautifully sandwiched between two crispy, golden waffle layers.</p>
+                            <ul class="flavour-details-list">
+                                <li><span>Calories:</span> 150</li>
+                                <li><span>Perfect with:</span> Black Tea</li>
+                            </ul>
+                        </div>
+                        <div class="panel-visual">
+                            <img src="media/caramel.png" class="floating-pack main-img" alt="Caramel Package">
+                            <img src="media/caramel-in.png" class="floating-filling sub-img" alt="Caramel Filling">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavour-panel">
+                    <div class="panel-container">
+                        <div class="panel-content">
+                            <h2>Rich Chocolate</h2>
+                            <p>Our highest demand flavour. A luscious blend of dark and milk chocolate that provides a decadent, melt-in-your-mouth experience.</p>
+                            <ul class="flavour-details-list">
+                                <li><span>Calories:</span> 155</li>
+                                <li><span>Perfect with:</span> Hot Milk</li>
+                            </ul>
+                        </div>
+                        <div class="panel-visual">
+                            <img src="media/chocolate.png" class="floating-pack main-img" alt="Chocolate Package">
+                            <img src="media/chocolate-in.png" class="floating-filling sub-img" alt="Chocolate Filling">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavour-panel">
+                    <div class="panel-container">
+                        <div class="panel-content">
+                            <h2>Strawberry Syrup</h2>
+                            <p>A fun, sweet, and tangy strawberry-flavoured syrup filling designed specifically for the youth segment and café-goers.</p>
+                            <ul class="flavour-details-list">
+                                <li><span>Calories:</span> 145</li>
+                                <li><span>Perfect with:</span> Iced Lattes</li>
+                            </ul>
+                        </div>
+                        <div class="panel-visual">
+                            <img src="media/strawberry.png" class="floating-pack main-img" alt="Strawberry Package">
+                            <img src="media/strawberry-in.png" class="floating-filling sub-img" alt="Strawberry Filling">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flavour-panel">
+                    <div class="panel-container">
+                        <div class="panel-content">
+                            <h2>Peanut Butter</h2>
+                            <p>Creamy, rich peanut butter filling with a satisfying nutty finish. A protein-forward treat for our health-conscious consumers.</p>
+                            <ul class="flavour-details-list">
+                                <li><span>Calories:</span> 160</li>
+                                <li><span>Perfect with:</span> Espresso</li>
+                            </ul>
+                        </div>
+                        <div class="panel-visual">
+                            <img src="media/peanutbutter.png" class="floating-pack main-img" alt="Peanut Butter Package">
+                            <img src="media/peanutbutter-in.png" class="floating-filling sub-img" alt="Peanut Butter Filling">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavour-panel">
+                    <div class="panel-container">
+                        <div class="panel-content">
+                            <h2>Cinnamon</h2>
+                            <p>A beautiful bridge between Dutch tradition and local spice. Warm, aromatic cinnamon mixed into our signature syrup.</p>
+                            <ul class="flavour-details-list">
+                                <li><span>Calories:</span> 150</li>
+                                <li><span>Perfect with:</span> Masala Chai</li>
+                            </ul>
+                        </div>
+                        <div class="panel-visual">
+                            <img src="media/cinnamon.png" class="floating-pack main-img" alt="Cinnamon Package">
+                            <img src="media/cinnamon-in.png" class="floating-filling sub-img" alt="Cinnamon Filling">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flavour-panel">
+                    <div class="panel-container">
+                        <div class="panel-content">
+                            <h2>Coffee</h2>
+                            <p>An espresso-infused filling designed for young professionals and coffee lovers needing a bold caffeinated treat on the go.</p>
+                            <ul class="flavour-details-list">
+                                <li><span>Calories:</span> 150</li>
+                                <li><span>Perfect with:</span> Cappuccino</li>
+                            </ul>
+                        </div>
+                        <div class="panel-visual">
+                            <img src="media/coffee.png" class="floating-pack main-img" alt="Coffee Package">
+                            <img src="media/coffee-in.png" class="floating-filling sub-img" alt="Coffee Filling">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-section fade-in" id="shop">
+        <h2 class="section-title">Shop Stroopy</h2>
+        <p class="subtitle" style="text-align: center; font-size: 1.2rem; margin-bottom: 40px;">Choose your perfect pack size for any occasion.</p>
+        
+        <div class="shop-grid">
+            <div class="product-card fade-in">
+                <img src="media/single.png" alt="2-Piece Personal Pack">
+                <h3>1 Piece Personal Pack</h3>
+                <p>Perfect for an impulse buy or a quick café treat.</p>
+                <div class="price">TK. 30</div>
+                <a href="#" class="btn btn-small">Buy Now</a>
+            </div>
+
+            <div class="product-card fade-in">
+                <img src="media/6pack.png" alt="Assorted Bundle Pack">
+                <h3>Assorted Bundle Pack</h3>
+                <p>One of each of all 6 delicious flavours.</p>
+                <div class="price">TK. 180</div>
+                <a href="#" class="btn btn-small">Buy Now</a>
+            </div>
+
+            <div class="product-card fade-in">
+                <img src="media/8pack.png" alt="8-Piece Pack">
+                <h3>8-Piece Pack</h3>
+                <p>Ideal for sharing and small gatherings.</p>
+                <div class="price">TK. 240</div>
+                <a href="#" class="btn btn-small">Buy Now</a>
+            </div>
+
+            <div class="product-card fade-in">
+                <img src="media/16pack.png" alt="16-Piece Pack">
+                <h3>16-Piece Pack</h3>
+                <p>The ultimate family pack for regular buyers.</p>
+                <div class="price">TK. 480</div>
+                <a href="#" class="btn btn-small">Buy Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="availability-section fade-in">
+        <h2 class="section-title script-text" style="color: var(--white); font-size: 4rem;">Where to Find Us</h2>
+        <div class="availability-grid">
+            <div class="availability-col fade-in">
+                <h3>🛒 Supermarkets</h3>
+                <ul>
+                    <li>Agora</li>
+                    <li>Shwapno</li>
+                    <li>Meena Bazar</li>
+                    <li>Unimart</li>
+                    <li>Apon Family Mart</li>
+                </ul>
+            </div>
+            <div class="availability-col fade-in">
+                <h3>📱 Order Online</h3>
+                <ul>
+                    <li>Daraz</li>
+                    <li>Chaldal</li>
+                    <li>Foodpanda Mart</li>
+                    <li>Facebook & Instagram</li>
+                </ul>
+            </div>
+            <div class="availability-col fade-in">
+                <h3>☕ Premium Cafés</h3>
+                <ul>
+                    <li>North End Coffee</li>
+                    <li>Gloria Jean's</li>
+                    <li>Crimson Cup</li>
+                    <li>Chayer Adda</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Stroopy Bangladesh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
